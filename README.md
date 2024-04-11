@@ -15,13 +15,13 @@ Before running the script, ensure you have the following installed:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your_username/your_repository.git
+    git clone https://github.com/yahya-goorakani/acuitytrading-candlestick-data-fetcher.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd your_repository
+    cd acuitytrading-candlestick-data-fetcher
     ```
 
 3. Install the required packages:
@@ -46,6 +46,7 @@ def config():
         'port': 'your_database_port'
     }
     return params
+```
 
 ##Usage
 
