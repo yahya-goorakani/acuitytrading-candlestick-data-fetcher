@@ -17,15 +17,15 @@ def fetch_data(url, params):
         return()
 
 def get_chart_data(granularity, sleep_time):
-    url = "https://dashboard.acuitytrading.com/OandaPriceApi/GetCandles"
+    url = "****"
     params = {
-        'widgetName': 'oandainstrumentpage',
-        'apikey': '4b12e6bb-7ecd-49f7-9bbc-2e03644ce41f',
-        'Remote Address': '51.158.239.38:443',
-        'Request-Context': 'appId=cid-v1:c0a124e5-71c0-4ced-b978-78e4ff157a5c',
-        'granularity': granularity,
-        'instrumentName': 'US30_USD',
-        'region': 'OEL'
+        'widgetName': '***',
+        'apikey': '****',
+        'Remote Address': '****',
+        'Request-Context': '****',
+        'granularity': '****',
+        'instrumentName': '***',
+        'region': '***'
     }
    
     while True:
