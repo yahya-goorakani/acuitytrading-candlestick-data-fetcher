@@ -50,4 +50,4 @@ def config():
 
 ##Usage
 
-python fetch_data_to_db.py
+python3 Website.py

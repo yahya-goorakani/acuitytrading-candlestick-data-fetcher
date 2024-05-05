@@ -16,7 +16,7 @@ This Python script fetches candle data from an external API, processes it, and s
 
 ## Usage
 
-1. Run the Flask application by executing `python your_file_name.py`.
+1. Run the Flask application by executing `python Website.py`.
 2. Access the `/fetch_data` endpoint to start fetching candle data.
 3. Candle data will be fetched for different granularities (M: Minute, D: Day, W: Week, M: Month) with specified sleep times between each fetch.
 4. The fetched data will be stored in PostgreSQL tables named `candles_<granularity>`.
@@ -28,7 +28,7 @@ This Python script fetches candle data from an external API, processes it, and s
 ## Structure
 
 - `config.py`: Contains configuration parameters for connecting to the PostgreSQL database.
-- `your_file_name.py`: Main Flask application file containing the script to fetch and store candle data.
+- `Website.py`: Main Flask application file containing the script to fetch and store candle data.
 - `README.md`: Documentation file explaining the usage and structure of the project.
 - `requirements.txt`: Lists the required Python packages for easy installation.
 
